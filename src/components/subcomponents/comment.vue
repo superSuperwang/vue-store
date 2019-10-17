@@ -37,7 +37,7 @@ export default {
   },
   methods: {
     getComments() {
-      // 获取评论
+      // 获取评论    
       this.$http
         .get("api/getcomments/" + this.id + "?pageindex=" + this.pageIndex)
         .then(result => {

@@ -9,7 +9,7 @@
     <hr>
 
     <!-- 缩略图区域 -->
-    <div class="thumbs">
+    <div class="thumbs">  
       <img class="preview-img" v-for="(item, index) in list" :src="item.src" height="100" @click="$preview.open(index, list)" :key="item.src">
     </div>
 

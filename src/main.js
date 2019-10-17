@@ -25,7 +25,7 @@ var store = new Vuex.Store({
       // 2. 如果没有，则直接把 商品数据，push 到 car 中即可
 
       // 假设 在购物车中，没有找到对应的商品
-      var flag = false
+      var flag = false  
 
       state.car.some(item => {
         if (item.id == goodsinfo.id) {
