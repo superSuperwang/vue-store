@@ -46,7 +46,7 @@ var router = new VueRouter({
     },
     { 
       path: '/home/newsinfo/:id', 
-      component: NewsInfo 
+      component: NewsInfo  
     },
     { 
       path: '/home/photolist', 

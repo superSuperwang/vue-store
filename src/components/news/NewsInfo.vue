@@ -19,7 +19,7 @@
 </template>
 
 <script>
-// 1. 导入 评论子组件
+// 导入 评论子组件
 import comment from "../subcomponents/comment.vue";
 
 export default {
